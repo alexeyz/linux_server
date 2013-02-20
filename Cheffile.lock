@@ -2,7 +2,6 @@ SITE
   remote: http://community.opscode.com/api/v1
   specs:
     build-essential (1.1.0)
-    yum (0.8.0)
 
 GIT
   remote: https://github.com/coderanger/chef-collectd_plugins
@@ -107,6 +106,13 @@ GIT
   specs:
     sudo (1.1.1)
 
+GIT
+  remote: https://github.com/opscode-cookbooks/yum
+  ref: master
+  sha: 13abacfab4b2aeedff16282a21cc97c332e2990f
+  specs:
+    yum (2.1.0)
+
 DEPENDENCIES
   apache2 (>= 0)
   collectd (>= 0)
@@ -121,4 +127,5 @@ DEPENDENCIES
   rubygems (>= 0)
   sudo (>= 0)
   system (>= 0)
+  yum (>= 0)
 
