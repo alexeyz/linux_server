@@ -99,7 +99,9 @@ Already up'd a linux_server box?
 
 Add a new box from local or remote (Ubuntu 12.04)
 
-	vagrant box add linux_server http://files.vagrantup.com/precise64.box
+(ubuntu)	vagrant box add linux_server http://files.vagrantup.com/precise64.box
+or
+(centos)        vagrant box add centos_server http://tag1consulting.com/files/centos-5.9-x86-64-minimal.box
 	#vagrant box add linux_server ~/Binaries/vagrant/boxes/precise64.box
 
 Need debug?
